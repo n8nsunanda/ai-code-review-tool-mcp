@@ -2,4 +2,4 @@ requests
 python-docx 
 gradio
 huggingface_hub
-FastMCP
+fastmcp
