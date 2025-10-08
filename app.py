@@ -134,7 +134,8 @@ def review_single_file(file_obj):
 # -----------------------------
 # 5️⃣ Gradio UI
 # -----------------------------
-with gr.Blocks() as demo:
+if __name__ == "__main__":
+ with gr.Blocks() as demo:
     gr.Markdown("# 🤖 AI Code Reviewer\nUpload a ZIP or a single file and get a code review report.")
 
     with gr.Tab("📦 Review ZIP with Folder Selection"):
